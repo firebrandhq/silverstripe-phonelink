@@ -21,7 +21,7 @@ Installation Instructions
 Via composer:
 
 ```
-composer require nathancox/phonelink
+composer require nathancox/silverstripe-phonelink
 ```
 
 Or manually download the module and place it in a folder in your site root.
@@ -32,11 +32,7 @@ Visit yoursite.com/dev/build
 Usage
 -----
 
-
 ![example sortableuploadfield](http://static.flyingmonkey.co.nz/github/silverstripe-phonelink/phonelink-1.png)
-
-
-
 
 
 Known Issues
