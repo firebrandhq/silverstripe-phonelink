@@ -1,0 +1,8 @@
+---
+Name: phonelink
+After: 'framework/*','cms/*'
+---
+
+HtmlEditorField_Toolbar:
+  extensions:
+    - PhoneLinkHtmlEditorFieldToolbar
