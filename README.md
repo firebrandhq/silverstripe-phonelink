@@ -33,7 +33,7 @@ Usage
 -----
 
 
-![example sortableuploadfield](http://static.flyingmonkey.co.nz/github/silverstripe-sortableuploadfield/sortableuploadfield-1.png)
+![example sortableuploadfield](http://static.flyingmonkey.co.nz/github/silverstripe-phonelink/phonelink-1.png)
 
 
 
