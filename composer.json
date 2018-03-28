@@ -9,7 +9,7 @@
 		{"name": "Nathan Cox","email": "nathan@flyingmonkey.co.nz"}
 	],
 	"support": {
-		"issues": "https://github.com/nathancox/silverstripe-phonefield/issues"
+		"issues": "https://github.com/nathancox/silverstripe-phonelink/issues"
 	},
 	"require": {
 		"silverstripe/framework": "~3.2"
