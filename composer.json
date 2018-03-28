@@ -1,5 +1,5 @@
 {
-	"name": "nathancox/phonelink",
+	"name": "nathancox/silverstripe-phonelink",
 	"description": "Adds a telephone number option to TinyMCE's Insert Link dialog for creating/editing tel: links.",
 	"type": "silverstripe-module",
 	"homepage": "https://github.com/nathancox/silverstripe-phonelink",
@@ -15,6 +15,7 @@
 		"silverstripe/framework": "~3.2"
 	},
 	"extra": {
+		"installer-name": "phonelink",
 		"screenshots": [
 			"http://static.flyingmonkey.co.nz/github/silverstripe-phonelink/phonelink-1.png"
 		]
