@@ -1,5 +1,5 @@
 {
-	"name": "nathancox/silverstripe-phonelink",
+	"name": "firebrand/silverstripe-phonelink",
 	"description": "Adds a telephone number option to TinyMCE's Insert Link dialog for creating/editing tel: links.",
 	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/nathancox/silverstripe-phonelink",
