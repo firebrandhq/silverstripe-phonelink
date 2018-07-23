@@ -1,8 +1,11 @@
 ---
 Name: phonelink
-After: 'framework/*','cms/*'
+After:
+  - '#cmsmodals'
 ---
-
-HtmlEditorField_Toolbar:
+SilverStripe\Admin\ModalController:
   extensions:
-    - PhoneLinkHtmlEditorFieldToolbar
+    - Firebrand\PhoneLink\Forms\PhoneLinkModalExtension
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+    - Firebrand\PhoneLink\Extensions\LeftAndMainExtension

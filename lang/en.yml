@@ -1,4 +1,5 @@
 en:
-  HtmlEditorFieldPhoneLink:
-    FIELDLABEL: 'Telephone number'
-    LINKTYPELABEL: 'Telephone number'
+  Firebrand\PhoneLink\Forms\EditorPhoneLinkFormFactory:
+    EMAIL: 'Phone Number'
+    LINKDESCR: 'Link description'
+    LINKTEXT: 'Link text'

@@ -3,15 +3,32 @@
 	"description": "Adds a telephone number option to TinyMCE's Insert Link dialog for creating/editing tel: links.",
 	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/nathancox/silverstripe-phonelink",
-	"keywords": ["silverstripe", "cms", "tinymce"],
+	"keywords": [
+		"silverstripe",
+		"cms",
+		"tinymce"
+	],
 	"license": "MIT",
 	"authors": [
-		{"name": "Nathan Cox","email": "nathan@flyingmonkey.co.nz"}
+		{
+			"name": "Nathan Cox",
+			"email": "nathan@flyingmonkey.co.nz"
+		}
 	],
 	"support": {
 		"issues": "https://github.com/nathancox/silverstripe-phonelink/issues"
 	},
 	"require": {
 		"silverstripe/framework": "^4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Firebrand\\PhoneLink\\": "src/"
+		}
+	},
+	"extra": {
+		"expose": [
+			"client/dist"
+		]
 	}
 }
