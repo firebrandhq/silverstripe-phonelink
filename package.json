@@ -2,9 +2,6 @@
   "name": "silverstripe-phonelink",
   "version": "1.0.0",
   "description": "SilverStripe PhoneLink",
-  "engines": {
-    "node": "^6.x"
-  },
   "scripts": {
     "build": "yarn && yarn test && NODE_ENV=production webpack -p --bail --progress",
     "dev": "NODE_ENV=development webpack --progress",

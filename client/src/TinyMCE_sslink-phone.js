@@ -31,6 +31,7 @@ const plugin = {
 const modalId = 'insert-link__dialog-wrapper--phone';
 const sectionConfigKey = 'SilverStripe\\Admin\\LeftAndMain';
 const formName = 'EditorPhoneLink';
+
 const InsertLinkPhoneModal = loadComponent(createInsertLinkModal(sectionConfigKey, formName));
 
 jQuery.entwine('ss', ($) => {
@@ -53,7 +54,7 @@ jQuery.entwine('ss', ($) => {
      * Assumes that $('.insert-link__dialog-wrapper').entwine({}); is defined for shared functions
      */
     $(`#${modalId}`).entwine({
-        renderModal(isOpen) {
+        renderModal(show) {
             const handleHide = () => this.close();
             const handleInsert = (...args) => this.handleInsert(...args);
             const attrs = this.getOriginalAttributes();
@@ -65,9 +66,9 @@ jQuery.entwine('ss', ($) => {
             // create/update the react component
             ReactDOM.render(
                 <InsertLinkPhoneModal
-                isOpen={isOpen}
+                show={show}
                 onInsert={handleInsert}
-                onClosed={handleHide}
+                onHide={handleHide}
                 title={i18n._t('Admin.LINK_PHONE', 'Insert phone number link')}
                 bodyClassName="modal__dialog"
                 className="insert-link__dialog-wrapper--phone"
