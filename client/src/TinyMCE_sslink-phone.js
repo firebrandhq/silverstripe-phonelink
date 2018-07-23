@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom';
 import jQuery from 'jquery';
 import {createInsertLinkModal} from 'containers/InsertLinkModal/InsertLinkModal';
 import {loadComponent} from 'lib/Injector';
+import 'lang/en.js';
+import 'lang/fr.js';
 
 const commandName = 'sslinkphone';
 

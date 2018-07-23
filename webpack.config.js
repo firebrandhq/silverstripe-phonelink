@@ -33,7 +33,7 @@ const config = [
         externals: externalJS(ENV, PATHS),
         module: moduleJS(ENV, PATHS),
         plugins: pluginJS(ENV, PATHS),
-    },
+    }
 ];
 
 // Use WEBPACK_CHILD=js or WEBPACK_CHILD=css env var to run a single config

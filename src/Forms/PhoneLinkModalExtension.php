@@ -2,7 +2,6 @@
 
 namespace Firebrand\PhoneLink\Forms;
 
-use SilverStripe\Admin\LeftAndMainFormRequestHandler;
 use SilverStripe\Admin\ModalController;
 use SilverStripe\Core\Extension;
 use SilverStripe\Forms\Form;
@@ -13,9 +12,9 @@ use SilverStripe\Forms\Form;
  */
 class PhoneLinkModalExtension extends Extension
 {
-    private static $allowed_actions = array(
+    private static $allowed_actions = [
         'EditorPhoneLink',
-    );
+    ];
 
     /**
      * @return ModalController
@@ -40,7 +39,7 @@ class PhoneLinkModalExtension extends Extension
         return $factory->getForm(
             $this->getOwner(),
             "EditorPhoneLink",
-            [ 'RequireLinkText' => isset($showLinkText) ]
+            ['RequireLinkText' => isset($showLinkText)]
         );
     }
 }

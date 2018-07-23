@@ -1,5 +1,5 @@
 en:
   Firebrand\PhoneLink\Forms\EditorPhoneLinkFormFactory:
-    EMAIL: 'Phone Number'
+    PHONE: 'Phone Number'
     LINKDESCR: 'Link description'
     LINKTEXT: 'Link text'
