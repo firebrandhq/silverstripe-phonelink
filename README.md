@@ -4,6 +4,8 @@ Silverstripe 4 module adding the possibility to create / edit Phone number links
 
 It uses the native SilverStripe 4 React modals and seamlessly integrates in the CMS.
 
+If you need this for SilverStripe 3 [use Nathan Cox's module](https://github.com/nathancox/silverstripe-phonelink).
+
 ## Requirements
 
 * [SilverStripe ^4.1.2](https://www.silverstripe.org/download)
@@ -40,4 +42,6 @@ All methods, with `public` visibility, are part of the public API. All other met
 
 ## Reporting Issues
 
-Please [create an issue](https://github.com/firebrandhq/silverstripe-phonelink/issues) for any bugs you've found, or features you're missing.  
+Please [create an issue](https://github.com/firebrandhq/silverstripe-phonelink/issues) for any bugs you've found, or features you're missing.
+
+  
