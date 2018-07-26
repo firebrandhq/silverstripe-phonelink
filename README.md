@@ -8,7 +8,9 @@ If you need this for SilverStripe 3 [use Nathan Cox's module](https://github.com
 
 ## Requirements
 
-* [SilverStripe ^4.1.2](https://www.silverstripe.org/download)
+* [SilverStripe 4.0 to 4.1](https://www.silverstripe.org/download)
+
+Module is not yet compatible with SilverStripe 4.2
 
 ## Installation
 
