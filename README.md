@@ -8,14 +8,15 @@ If you need this for SilverStripe 3 [use Nathan Cox's module](https://github.com
 
 ## Requirements
 
-* [SilverStripe 4.2](https://www.silverstripe.org/download)
+* [SilverStripe ^4.2](https://www.silverstripe.org/download)
 
+For Silverstripe 4.0 to 4.1 use [this branch](https://github.com/firebrandhq/silverstripe-phonelink/tree/1.x)
 ## Installation
 
 **Run the following command:**
 
 ```sh
-composer require firebrandhq/silverstripe-phonelink "^1.0"
+composer require firebrandhq/silverstripe-phonelink "^2.0"
 ```
 
 ## Screenshots
