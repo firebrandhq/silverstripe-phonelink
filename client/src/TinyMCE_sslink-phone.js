@@ -1,6 +1,7 @@
 /* global tinymce, window */
 import i18n from 'i18n';
 import TinyMCEActionRegistrar from 'lib/TinyMCEActionRegistrar';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import jQuery from 'jquery';
 import {createInsertLinkModal} from 'containers/InsertLinkModal/InsertLinkModal';
@@ -56,7 +57,7 @@ jQuery.entwine('ss', ($) => {
      * Assumes that $('.insert-link__dialog-wrapper').entwine({}); is defined for shared functions
      */
     $(`#${modalId}`).entwine({
-        renderModal(show) {
+        renderModal(isOpen) {
             const handleHide = () => this.close();
             const handleInsert = (...args) => this.handleInsert(...args);
             const attrs = this.getOriginalAttributes();
@@ -68,7 +69,7 @@ jQuery.entwine('ss', ($) => {
             // create/update the react component
             ReactDOM.render(
                 <InsertLinkPhoneModal
-                show={show}
+                isOpen={isOpen}
                 onInsert={handleInsert}
                 onHide={handleHide}
                 title={i18n._t('Admin.LINK_PHONE', 'Insert phone number link')}
