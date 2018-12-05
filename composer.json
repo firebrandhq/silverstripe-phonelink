@@ -32,8 +32,7 @@
 	},
 	"extra": {
 		"expose": [
-			"client/dist",
-			"client/lang"
+			"client/dist"
 		]
 	},
 	"prefer-stable": true,
