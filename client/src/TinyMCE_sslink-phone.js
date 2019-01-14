@@ -71,7 +71,7 @@ jQuery.entwine('ss', ($) => {
                 <InsertLinkPhoneModal
                 isOpen={isOpen}
                 onInsert={handleInsert}
-                onHide={handleHide}
+                onClosed={handleHide}
                 title={i18n._t('Admin.LINK_PHONE', 'Insert phone number link')}
                 bodyClassName="modal__dialog"
                 className="insert-link__dialog-wrapper--phone"
