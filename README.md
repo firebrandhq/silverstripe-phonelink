@@ -8,7 +8,9 @@ If you need this for SilverStripe 3 [use Nathan Cox's module](https://github.com
 
 ## Requirements
 
-* [SilverStripe ^4.2](https://www.silverstripe.org/download)
+* [SilverStripe ^4.4](https://www.silverstripe.org/download)
+
+For SilverStripe 4.2 and 4.3 use version 2.0.3
 
 For Silverstripe 4.0 to 4.1 use [this branch](https://github.com/firebrandhq/silverstripe-phonelink/tree/1.x)
 ## Installation
