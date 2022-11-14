@@ -9,3 +9,5 @@ SilverStripe\Admin\ModalController:
 SilverStripe\Admin\LeftAndMain:
   extensions:
     - Firebrand\PhoneLink\Extensions\LeftAndMainExtension
+  extra_requirements_javascript:
+    - 'firebrandhq/silverstripe-phonelink: client/src/lang/de.js'
