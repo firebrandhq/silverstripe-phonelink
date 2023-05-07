@@ -1,14 +1,17 @@
-# SilverStripe 4 Phone Link Module 
+# SilverStripe 5 Phone Link Module 
 
-Silverstripe 4 module adding the possibility to create / edit Phone number links using the TinyMCE editor (tel: links).
+Silverstripe 5 module adding the possibility to create / edit Phone number links using the TinyMCE editor (tel: links).
 
-It uses the native SilverStripe 4 React modals and seamlessly integrates in the CMS.
+It uses the native SilverStripe 5 React modals and seamlessly integrates in the CMS.
 
+If you need this for SilverStripe 4 use [2.1](https://github.com/firebrandhq/silverstripe-phonelink/tree/2.1.0).
 If you need this for SilverStripe 3 [use Nathan Cox's module](https://github.com/nathancox/silverstripe-phonelink).
 
 ## Requirements
 
-* [SilverStripe ^4.4](https://www.silverstripe.org/download)
+* [SilverStripe ^5.0](https://www.silverstripe.org/download)
+
+For SilverStripe 4.4 use version 2.1.0
 
 For SilverStripe 4.2 and 4.3 use version 2.0.3
 
