@@ -11,10 +11,6 @@
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
-			"name": "Marc Espiard",
-			"email": "marc@firebrand.nz"
-		},
-		{
 			"name": "Firebrand",
 			"homepage": "https://firebrand.nz",
 			"email": "developers@firebrand.nz"
@@ -24,7 +20,7 @@
 		"issues": "https://github.com/firebrandhq/silverstripe-phonelink/issues"
 	},
 	"require": {
-		"silverstripe/cms": "^4.4"
+		"silverstripe/cms": "^5.0"
 	},
 	"autoload": {
 		"psr-4": {
@@ -37,5 +33,5 @@
 		]
 	},
 	"prefer-stable": true,
-	"minimum-stability": "stable"
+	"minimum-stability": "dev"
 }
