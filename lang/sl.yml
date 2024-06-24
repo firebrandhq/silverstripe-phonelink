@@ -1,0 +1,5 @@
+sl:
+  Firebrand\PhoneLink\Forms\EditorPhoneLinkFormFactory:
+    PHONE: 'Telefonska številka'
+    LINKDESCR: 'Opis povezave'
+    LINKTEXT: 'Besedilo v povezavi'
