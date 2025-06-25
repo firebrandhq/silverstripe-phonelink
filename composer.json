@@ -20,7 +20,7 @@
 		"issues": "https://github.com/firebrandhq/silverstripe-phonelink/issues"
 	},
 	"require": {
-		"silverstripe/cms": "^5.0"
+		"silverstripe/cms": "^6.0"
 	},
 	"autoload": {
 		"psr-4": {
