@@ -1,6 +1,6 @@
 <?php
 use SilverStripe\Core\Manifest\ModuleLoader;
-use SilverStripe\Forms\HTMLEditor\TinyMCEConfig;
+use SilverStripe\TinyMCE\TinyMCEConfig;
 
 call_user_func(function () {
     $module = ModuleLoader::inst()->getManifest()->getModule('firebrandhq/silverstripe-phonelink');
