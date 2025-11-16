@@ -4,8 +4,7 @@ After:
   - '#cmsmodals'
 ---
 SilverStripe\Admin\ModalController:
+  link_modal_form_factories:
+    EditorPhoneLink: Firebrand\PhoneLink\Forms\EditorPhoneLinkFormFactory
   extensions:
     - Firebrand\PhoneLink\Forms\PhoneLinkModalExtension
-SilverStripe\Admin\LeftAndMain:
-  extensions:
-    - Firebrand\PhoneLink\Extensions\LeftAndMainExtension
