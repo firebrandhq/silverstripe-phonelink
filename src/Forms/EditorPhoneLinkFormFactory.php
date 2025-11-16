@@ -4,7 +4,7 @@ namespace Firebrand\PhoneLink\Forms;
 
 use SilverStripe\Admin\Forms\LinkFormFactory;
 use SilverStripe\Forms\FieldList;
-use SilverStripe\Forms\RequiredFields;
+use SilverStripe\Forms\Validation\RequiredFieldsValidator;
 use SilverStripe\Forms\TextField;
 
 class EditorPhoneLinkFormFactory extends LinkFormFactory
@@ -32,7 +32,7 @@ class EditorPhoneLinkFormFactory extends LinkFormFactory
     protected function getValidator($controller, $name, $context)
     {
         if ($context['RequireLinkText']) {
-            return RequiredFields::create('Text');
+            return RequiredFieldsValidator::create('Text');
         }
 
         return null;
